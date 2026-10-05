@@ -1,4 +1,3 @@
-import sys
 from functools import cmp_to_key
 
 def compare(x, y):
@@ -8,6 +7,6 @@ def compare(x, y):
         return 1
 
 
-lst = sys.stdin.read().split()
+lst = input().split()
 lst = sorted(lst, key=cmp_to_key(compare))
 print(''.join(lst))
