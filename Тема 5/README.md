@@ -92,6 +92,7 @@ DONE
 Пример соответствует следующему дереву:
 
 <img width="416" height="249" alt="image" src="https://github.com/user-attachments/assets/1c959078-58fd-47f2-a905-41b4e27e2a94" />
+
 ## Примеры
 
 **входные данные**
