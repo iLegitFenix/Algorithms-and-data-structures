@@ -38,8 +38,8 @@ template<class T> void print_tree(Node<T> *p, int level)
   print_tree(p->right, level+1);
 
 }
+//(Изначальный вызов этой функции — print_tree(root,0).)
 ```
-(Изначальный вызов этой функции — print_tree(root,0).)
 
 ## Примеры
 
