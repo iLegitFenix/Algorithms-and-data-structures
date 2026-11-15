@@ -13,6 +13,8 @@ class Heap:
             j = self.ind_max_child(i)
             if self.heap[j] > self.heap[i]:
                 self.heap[j], self.heap[i] = self.heap[i], self.heap[j]
+            else:
+                break
             i = j
 
     def ind_max_child(self, i):
