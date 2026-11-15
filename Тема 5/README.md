@@ -17,7 +17,7 @@
 **Выходные данные**
 
 Для каждого запроса выводите ответ на него. Для запросов ADD, DELETE и SEARCH — соответствующее слово в отдельной строке. На запрос PRINTTREE надо выводить дерево, обязательно согласно такому алгоритму:
-
+'''text
 template<class T> void print_tree(Node<T> *p, int level)
 
 {
@@ -37,7 +37,7 @@ template<class T> void print_tree(Node<T> *p, int level)
   print_tree(p->right, level+1);
 
 }
-
+'''
 (Изначальный вызов этой функции — print_tree(root,0).)
 
 ## Примеры
